@@ -13,7 +13,7 @@ html, body {
 }
 
 .black {
-  background-color: black;
+  background-color: gray;
 }
 
 .white {
@@ -31,4 +31,13 @@ main {
   grid-template-rows: repeat(8, 10vh);
  justify-content: center;
  margin-inline: auto;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10vh;
+  height: 10vh;
+  width: 10vh;
 }
